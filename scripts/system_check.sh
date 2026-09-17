@@ -23,4 +23,7 @@ echo "========== SYSTEM HEALTH CHECK ============"
 	echo "Current User"
 	whoami
 
+	echo "Memory Percentage:"
+	free | awk '/Mem:/ {printf("%.2f%%\n", $3/$2 * 100)}'
+
 echo "============ CHECK COMPLETED ================"
