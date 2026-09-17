@@ -1,0 +1,12 @@
+2026-09-17 10:01:12 INFO Application started
+2026-09-17 10:02:15 INFO Database connection successful
+2026-09-17 10:03:22 WARNING High memory usage detected
+2026-09-17 10:04:31 ERROR Database connection failed
+2026-09-17 10:05:44 INFO User login successful from 192.168.1.10
+2026-09-17 10:06:12 ERROR Failed to connect to API
+2026-09-17 10:07:19 WARNING Disk usage above 80%
+2026-09-17 10:08:25 INFO User login successful from 192.168.1.20
+2026-09-17 10:09:30 ERROR Failed login attempt from 192.168.1.50
+2026-09-17 10:10:45 ERROR Failed login attempt from 192.168.1.50
+2026-09-17 10:11:51 INFO Application health check successful
+2026-09-17 10:12:10 WARNING CPU usage above 80%
