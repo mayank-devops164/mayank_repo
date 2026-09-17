@@ -20,4 +20,7 @@ echo "========== SYSTEM HEALTH CHECK ============"
 	echo "TOP Processes:"
 	ps -eo pid,comm,%cpu,%mem --sort=-%cpu |head
 
+	echo "Current User"
+	whoami
+
 echo "============ CHECK COMPLETED ================"
